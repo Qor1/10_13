@@ -20,6 +20,10 @@ public class Main {
         int rez = a+b+c;
         System.out.println("Skaitļu summa ir "+rez);
     }
+    public static void sum (String a, String b){
+        String rez = a+b;
+        System.out.println("Skaitļu summa ir "+rez);
+    }
 
     //       1	Make the cookie batter.
     public static void better() {
