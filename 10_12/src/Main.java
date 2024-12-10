@@ -5,6 +5,20 @@ public class Main {
 
 
 
+        sum(1,2);
+
+
+
+
+    }
+
+    public static void sum (int a, int b){
+        int rez = a+b;
+        System.out.println("Skaitļu summa ir "+rez);
+    }
+    public static void sum (int a, int b, int c){
+        int rez = a+b+c;
+        System.out.println("Skaitļu summa ir "+rez);
     }
 
     //       1	Make the cookie batter.
